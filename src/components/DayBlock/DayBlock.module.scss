@@ -1,0 +1,21 @@
+.day_block_input {
+    width: 50px;
+}
+
+.day_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid #ffffff;
+    input {
+        border: none;
+        background: none;
+        text-align: center;
+    }
+}
+
+.day_block__selected {
+    border: 1px solid #0057ff;
+    border-radius: 4px;
+}
