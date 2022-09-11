@@ -11,7 +11,7 @@ const Header = () => {
     <div className={classes.header}>
       {
         daysNameOfTheWeek.map(item => (
-          <div className={classes.day}>
+          <div key={item} className={classes.day}>
             {item}
           </div>
         ))

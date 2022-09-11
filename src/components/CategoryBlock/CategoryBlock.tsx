@@ -8,10 +8,10 @@ import classes from './CategoryBlock.module.scss';
 const CategoryBlock = (props: {dataItem: any}) => {
   return (
     <div className={classes.planer_block}>
-      <div className={classes.category_title}>Категория {props.dataItem.id}</div>
+      <div className={classes.category_title}>Категория {props.dataItem.categoryId}</div>
         {
           props.dataItem.tasks.map((task: any) => (
-            <TaskBlock categoryId={props.dataItem.id} task={task} />
+            <TaskBlock key={task.taskId} categoryId={props.dataItem.categoryId} task={task} />
           ))
         }
     </div>

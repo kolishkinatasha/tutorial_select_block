@@ -1,30 +1,30 @@
 export const data = [
   {
-    id: 1,
+    categoryId: 1,
     tasks: [
       {
-        id: 11, worklogList: [
-          { id: 111 }, { id: 222 }, { id: 333 }, { id: 444 }, { id: 555 }, { id: 666 }, { id: 777 }
+        taskId: 1, days: [
+          { dayId: 1 }, { dayId: 2 }, { dayId: 3 }, { dayId: 4 }, { dayId: 5 }, { dayId: 6 }, { dayId: 7 }
         ]
       },
       {
-        id: 22, worklogList: [
-          { id: 111 }, { id: 222 }, { id: 333 }, { id: 444 }, { id: 555 }, { id: 666 }, { id: 777 }
+        taskId: 2, days: [
+          { dayId: 1 }, { dayId: 2 }, { dayId: 3 }, { dayId: 4 }, { dayId: 5 }, { dayId: 6 }, { dayId: 7 }
         ]
       },
     ]
   },
   {
-    id: 2,
+    categoryId: 2,
     tasks: [
       {
-        id: 33, worklogList: [
-          { id: 111 }, { id: 222 }, { id: 333 }, { id: 444 }, { id: 555 }, { id: 666 }, { id: 777 }
+        taskId: 3, days: [
+          { dayId: 1 }, { dayId: 2 }, { dayId: 3 }, { dayId: 4 }, { dayId: 5 }, { dayId: 6 }, { dayId: 7 }
         ]
       },
       {
-        id: 44, worklogList: [
-          { id: 111 }, { id: 222 }, { id: 333 }, { id: 444 }, { id: 555 }, { id: 666 }, { id: 777 }
+        taskId: 4, days: [
+          { dayId: 1 }, { dayId: 2 }, { dayId: 3 }, { dayId: 4 }, { dayId: 5 }, { dayId: 6 }, { dayId: 7 }
         ]
       },
     ]

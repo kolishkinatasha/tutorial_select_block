@@ -21,7 +21,6 @@ const DayBlock = (props: {
     && props.taskId === selectedDay.row
     && selectedDay.categoryIndex === props.categoryId;
 
-
   return (
     <div
       onClick={() => setSelectedDay(props.taskId, props.dayIndex, props.categoryId)}
@@ -34,12 +33,10 @@ const DayBlock = (props: {
     >
       <input
         ref={inputRef}
-        type='number'
         data-category={props.categoryId}
         data-task={props.taskId}
         data-day={props.dayIndex}
         className={classes.day_block_input}
-        readOnly={!isCurrentDaySelected}
         value={props.id}
       />
     </div>

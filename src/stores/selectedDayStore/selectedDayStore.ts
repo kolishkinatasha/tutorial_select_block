@@ -1,3 +1,4 @@
+// @ts-ignore
 import { makeAutoObservable } from 'mobx';
 
 class Store {
